@@ -6,7 +6,7 @@
 use std::io::{self, BufReader, BufRead};
  
 fn ham_encode() -> io::Result<()> {
-      let file = std::fs::File::open("Homework #3 - Encoding.txt")?;
+      let file = std::fs::File::open("Encoding.txt")?;
       let reader = BufReader::new(file);
   
       for line in reader.lines() {
@@ -91,7 +91,7 @@ fn ham_encode() -> io::Result<()> {
   }
   
 fn ham_decode() -> io::Result<()> {
-    let file = std::fs::File::open("Homework #3 - Decoding.txt")?;
+    let file = std::fs::File::open("Decoding.txt")?;
     let reader = BufReader::new(file);
     let mut block_num = 1;
     let mut line_num = 1;
