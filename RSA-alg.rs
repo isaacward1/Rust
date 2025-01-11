@@ -1,8 +1,3 @@
-/*
-* COP 3515
-* Homework #4
-*/
-
 use std::fs::File;
 use std::io::Write;
 use std::io::Read;
