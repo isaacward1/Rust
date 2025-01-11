@@ -1,8 +1,3 @@
-/*
- * COP 3515
- * Homework #3
- */
-
 use std::io::{self, BufReader, BufRead};
  
 fn ham_encode() -> io::Result<()> {
